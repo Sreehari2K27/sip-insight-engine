@@ -4,3 +4,9 @@ __pycache__/
 .pytest_cache/
 .venv/
 venv/
+*.backup
+*.bak
+data/exports/
+data/analysis_backup.json
+data/evidence.pre_live_pilot_backup.csv
+pilot_prompt_test.py

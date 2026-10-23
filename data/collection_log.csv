@@ -1,0 +1,17 @@
+run_id,collected_at,source,status,items_found,items_saved,items_skipped,error
+d331e500ca03,2026-10-20T15:30:09+00:00,appstore,failed,0,0,0,Set SIP_APPSTORE_APP_IDS to a comma-separated list of numeric App Store app ids (from the apps.apple.com/…/id<number> URL)
+24ff25ee576b,2026-10-20T15:37:33+00:00,appstore,ok,0,0,0,
+bfa916746f9c,2026-10-20T15:48:21+00:00,appstore,ok,0,0,0,"note: 1404871703 page 1: feed ok but no usable reviews (raw entries: 50, without text: 50)"
+bff3012ef080,2026-10-20T15:59:09+00:00,appstore,ok,0,0,0,"note: 1404871703 page 1: skipped 50 unusable entries; structure: keys[author:dict, content:dict, id:dict, im:contentType:dict, im:rating:dict, im:version:dict, im:voteCount:dict, im:voteSum:dict, link"
+f844e8cbb3e0,2026-10-20T16:02:51+00:00,appstore,ok,0,0,50,"note: 1404871703 page 1: skipped 50 unusable entries; fields: title{label;label:ok}; content{attributes,label;label:ok}; id{label;label:ok}; structure: keys[author:dict, content:dict, id:dict, im:contentType:dict, im:rating:dict, im:version:dict, im:voteCount:dict, im:voteSum:dict, link:dict, title:dict, updated:dict]"
+fafd1df15d16,2026-10-20T16:08:17+00:00,appstore,ok,0,0,50,note: 1404871703 page 1: skipped 50 entries with invalid review URL (id.scheme=none)
+2d24219ed9ca,2026-10-20T16:14:40+00:00,appstore,ok,0,0,50,"note: 1404871703 page 1: skipped 50 entries with invalid review URL (id.scheme=none, id.shape=numeric)"
+1c48d0f5a0fb,2026-10-20T16:20:39+00:00,appstore,ok,50,1,49,
+204a50a0d4e1,2026-10-20T17:23:06+00:00,youtube,ok,100,40,60,
+10cc01623947,2026-10-21T03:46:57+00:00,youtube,ok,962,204,758,
+130abea1ed97,2026-10-21T04:00:59+00:00,youtube,ok,962,0,962,
+ebf42860662c,2026-10-21T04:06:07+00:00,appstore,ok,150,0,150,
+8fcfabb30509,2026-10-21T04:08:13+00:00,appstore,ok,150,0,150,
+af42f9c8a5c2,2026-10-21T04:24:20+00:00,appstore,ok,0,0,0,note: 1404871703 page 1: feed ok but no entries (raw entries: 0)
+009acd498ec6,2026-10-21T16:36:08+00:00,tradingqna,ok,30,3,27,
+588053ce24a2,2026-10-23T05:18:52+00:00,youtube,ok,362,7,355,
